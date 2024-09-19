@@ -50,11 +50,11 @@ nav{
     font-size: clamp(2.5rem, 0.5rem + 5vw, 3rem);
 }
 
-.nav-container .links{
+.nav-container .sidemenu{
     display: flex;
 }
 
-.nav-container .links a{
+.nav-container .sidemenu a{
     position: relative;
     font-size: 1.2rem;
     color: white;
@@ -64,7 +64,7 @@ nav{
     transition: 0.3s linear;
 }
 
-.nav-container .links a::before{
+.nav-container .sidemenu a::before{
     position: absolute;
     content: "";
     bottom: -3px;
@@ -75,11 +75,11 @@ nav{
     transition: 0.2s linear;
 }
 
-.nav-container .links a:hover::before{
+.nav-container .sidemenu a:hover::before{
     width: 100%;
 }
 
-.nav-container .links a:hover{
+.nav-container .sidemenu a:hover{
     color: #077b32;
 }
 
